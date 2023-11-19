@@ -1,12 +1,64 @@
-body {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, sans-serif;
+body { /* Background and main text container */
+  background-color: rgb(21, 21, 21);
+  font-family: Arial, serif;
+  background-image: url('images/background.jpg');
+  background-size: 400px 400px;
 }
-h1 {
-  color: rgb(0, 0, 0);
+
+h1 {  /* Top bar and navigation menu */
+  color: rgb(255, 255, 255);
+  text-shadow: 6px 6px 4px rgb(20, 20, 20);
+  background-color: rgb(41, 41, 41);
+  font-family: Arial, serif;
+  z-index: 1;
 }
-section {
+
+h2 { /* Titles and headers */
   margin: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 60, 60);
+  text-shadow: 4px 4px 5px rgb(20, 20, 20);
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+nav {
+  color: rgb(255, 255, 255);
+  background-color: rgb(41, 41, 41);
+  text-shadow: 0px 0px 10px rgb(255, 0, 0);
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+nav a:link { color: #ffffff; }
+nav a:visited { color: #ffffff; }
+nav a:hover { color: #bbbbbb; }
+nav a:active { color: #626262; }
+
+section { /* A body of text, images and content */
+  margin: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 60, 60);
+  padding-top: 15px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+
+  box-sizing: border-box;
+}
+
+section a:link { color: rgb(255, 179, 0); }
+section a:visited { color: rgb(255, 179, 0); }
+section a:hover { color: rgb(100, 100, 255); }
+section a:active { color: rgb(200, 129, 0); }
+
+img{
+  margin: 10px;
 }
 
 .footer {
@@ -14,7 +66,7 @@ section {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(41, 41, 41);
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -30,9 +82,14 @@ section {
   font-size: 16px;
 }
 
-.padding {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 10px;
+.container{
+  background-color:rgb(41,41,41);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.imagerow{
+  display: list-item;
+  list-style-type: none;
 }
