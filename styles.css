@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: rgb(0, 0, 0);
+}
+section {
+  margin: 50px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.button {
+  background-color: #7a7a7a;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.padding {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
