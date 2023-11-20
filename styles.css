@@ -14,7 +14,7 @@ h1 {  /* Top bar and navigation menu */
 }
 
 h2 { /* Titles and headers */
-  margin: 50px;
+  margin: 4%;
   color: rgb(255, 255, 255);
   background-color: rgb(60, 60, 60);
   text-shadow: 4px 4px 5px rgb(20, 20, 20);
@@ -37,17 +37,16 @@ nav {
 
 nav a:link { color: #ffffff; }
 nav a:visited { color: #ffffff; }
-nav a:hover { color: #bbbbbb; }
-nav a:active { color: #626262; }
+nav a:hover { color: #b0b0b0; }
+nav a:active { color: #484848; }
 
 section { /* A body of text, images and content */
-  margin: 50px;
+  margin: 4%;
   color: rgb(255, 255, 255);
   background-color: rgb(60, 60, 60);
-  padding-top: 15px;
-  padding-right: 35px;
-  padding-bottom: 15px;
-  padding-left: 35px;
+  padding: 3%;
+
+
 
   box-sizing: border-box;
 }
