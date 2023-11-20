@@ -44,9 +44,10 @@ section { /* A body of text, images and content */
   margin: 4%;
   color: rgb(255, 255, 255);
   background-color: rgb(60, 60, 60);
-  padding: 3%;
-
-
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 
   box-sizing: border-box;
 }
@@ -58,6 +59,12 @@ section a:active { color: rgb(200, 129, 0); }
 
 img{
   margin: 10px;
+}
+
+hr{
+  height: 1px;
+  background-color: #8a8a8a;
+  border: none;
 }
 
 .footer {
@@ -73,12 +80,29 @@ img{
 .button {
   background-color: #7a7a7a;
   border: none;
+  margin-inline: 15px;
   color: rgb(255, 255, 255);
-  padding: 8px 32px;
+  padding: 8px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  text-shadow: 3px 3px 4px rgb(20, 20, 20);
+}
+
+.center {
+  margin: auto;
+  width: 100px;
+}
+
+.padding{
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: #585858; /* Green */
 }
 
 .container{
@@ -88,7 +112,30 @@ img{
   justify-content: left;
 }
 
-.imagerow{
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.horizontallayout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centrelist{
+  margin: auto;
+  width: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listrow{
+  margin-left: auto;
+  margin-right: auto;
   display: list-item;
   list-style-type: none;
 }
