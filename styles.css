@@ -57,8 +57,18 @@ section a:visited { color: rgb(255, 179, 0); }
 section a:hover { color: rgb(100, 100, 255); }
 section a:active { color: rgb(200, 129, 0); }
 
-img{
+img {
   margin: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+iframe {
+  margin: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
 }
 
 hr{
@@ -118,6 +128,12 @@ hr{
   justify-content: left;
 }
 
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
 .horizontallayout{
   display: flex;
   align-items: center;
@@ -138,4 +154,8 @@ hr{
   margin-right: auto;
   display: list-item;
   list-style-type: none;
+}
+
+.imgborder {
+  border: 5px solid #555;
 }
